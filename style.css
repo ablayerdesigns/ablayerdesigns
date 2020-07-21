@@ -1,0 +1,85 @@
+body
+{
+	background: #fff;
+	color: #222;
+}
+h1, h2, h3, h4, h5, h6
+{
+	color: #222;
+}
+p
+{
+	font-size: 130%;
+}
+.jumbotron
+{
+	border-radius: 0;
+	color: #fff;
+}
+.navbar-collapse
+{
+	flex-direction: column;
+}
+.navbar-nav
+{
+	display: contents;
+}
+.navbar li
+{
+	border: 3px solid #fff;
+	margin: 10px;
+}
+.navbar .nav-link.active, .navbar .nav-link:hover
+{
+	background: #fff;
+	color: #222 !important;
+}
+.bg_theme, .jumbotron
+{
+	background: #222;
+}
+.bg_theme *
+{
+	color: #fff !important;
+}
+.img_invert
+{
+	filter: invert(1);
+}
+.tab-content>.active
+{
+	display: flex !important;
+}
+.nav-pills .nav-link
+{
+	border-radius: 0;
+	border: 3px solid #222;
+	margin: 0 15px;
+	color: #222;
+}
+.nav-pills .nav-link.active, .nav-pills .nav-link:hover
+{
+	background: #222;
+	color: #fff;
+}
+.carousel-indicators
+{
+	bottom: 22px;
+}
+.carousel-indicators li
+{
+	text-indent: none;
+	width: 50px;
+	opacity: 0.7;
+}
+.carousel-indicators li div
+{
+	width: 50px;
+	height: 50px;
+	background-size: cover;
+}
+.carousel-inner div img
+{
+	width: 100%;
+	margin-bottom: 54px;
+}
