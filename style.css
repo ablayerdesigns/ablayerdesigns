@@ -29,6 +29,10 @@ p
 	border: 3px solid #fff;
 	margin: 10px;
 }
+.navbar li a
+{
+	padding: .5rem !important;
+}
 .navbar .nav-link.active, .navbar .nav-link:hover
 {
 	background: #fff;
@@ -61,6 +65,10 @@ p
 {
 	background: #222;
 	color: #fff;
+}
+#litho .nav-item
+{
+	margin: 2px;
 }
 .carousel-indicators
 {
