@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6
 }
 p
 {
-	font-size: 130%;
+	font-size: 115%;
 }
 .jumbotron
 {
@@ -58,17 +58,13 @@ p
 {
 	border-radius: 0;
 	border: 3px solid #222;
-	margin: 0 15px;
+	margin: 0.5rem;
 	color: #222;
 }
 .nav-pills .nav-link.active, .nav-pills .nav-link:hover
 {
 	background: #222;
 	color: #fff;
-}
-#litho .nav-item
-{
-	margin: 2px;
 }
 .carousel-indicators
 {
