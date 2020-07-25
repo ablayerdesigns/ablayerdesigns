@@ -328,6 +328,10 @@
 </div>
 <script>
 // Add scrollspy to <body>
+$(window).on("load", function(){
+	
+    $("#myModal").modal("show");
+})
 $('body').scrollspy({target: ".navbar", offset: 100});
 
 	// Add smooth scrolling on all links inside the navbar
